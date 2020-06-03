@@ -1,0 +1,86 @@
+/* Min egen Stilmall */
+
+#logo {
+ border-radius: 50%;   
+}
+
+
+#card-text:hover {
+ text-decoration: underline;      
+}
+
+.card-title {
+ color: green;   
+}
+
+.card-header {
+ color: green;
+}
+
+#start a{
+text-decoration: none;
+color: black;
+}
+
+#card-text {
+  width: 540px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#textauthor {
+  color: blue;   
+}
+
+.clickable {
+ background-color: white;
+color: blue;
+}
+
+#card-texts {
+  width: 470px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#buttonlog {
+border: 1px solid blue;
+margin: 2px;
+}
+
+#edit {
+background-color: transparent;
+border: none;
+}
+
+
+#cookie {
+background-color:rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* Media queries 792px */
+
+
+@media screen and (max-width: 792px) {
+  #card-texts {
+  width: 270px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} 
+
+    #aside {
+display: none;
+}
+
+#header {
+font-size: 12px;
+padding: 1px 1px;  
+}
+    
+    
+}
